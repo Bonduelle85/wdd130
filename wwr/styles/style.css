@@ -1,5 +1,13 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&display=swap');
+
+
 body{
     background-color:#ffffff;
+    font-family: 'Inclusive Sans', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 #content{
@@ -16,6 +24,7 @@ nav a{
     background-color:#f6e874;
     color: #55450c;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -46,6 +55,22 @@ main section{
     background-color:#294051;
     color: #eeeeee;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #435465;
+}
+
+main section img{
+    box-sizing: border-box;
 }
 
 .book:hover, .join:hover{
@@ -56,19 +81,31 @@ main section{
 .msg{
     background-color:#294051;
     color: #eeeeee;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     background-color:#294051;
     color: #eeeeee;
+    font-family: 'Croissant One', 'Bradley Hand', sans-serif;
 }
 .msg p{
     background-color:#294051;
     color: #eeeeee;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .home-title{
     background-color:#294051;
     color: #eeeeee;
+    font-family: 'Croissant One', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2{
+    margin: 0;
 }
 
 h4{
@@ -79,6 +116,8 @@ h4{
 footer{
     background-color:#f6e874;
     color: #55450c;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -98,14 +137,22 @@ footer p {
 
 footer p a:hover {
     text-decoration: none;
-}    
+}
+footer .social img{
+    padding-top: 15px;    
+}   
 
 .logo{
     width: 80px;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
