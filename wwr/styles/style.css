@@ -277,6 +277,7 @@ footer .social img{
     grid-template-columns: repeat(9, 1fr); 
     grid-template-rows: 0.5fr 0.5fr 4fr 0.5fr 0.5fr 4fr 0.5fr 0.5fr 4fr; 
     gap: 20px 0px;
+    margin-top: 60px;
 }
 
 .idaho_title_section{
