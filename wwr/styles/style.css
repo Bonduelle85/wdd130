@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&display=swap');
 
 
+/* Home page */
 body{
     background-color:#ffffff;
     font-family: 'Inclusive Sans', Helvetica, sans-serif;
@@ -230,6 +231,112 @@ footer .social img{
     width: 80px;
     padding-top: 10px;
 }
+
+/* Rivers page */
+
+#content_rivers{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero_rivers {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box_rivers {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg_rivers{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-msg_rivers h1, #hero-msg_rivers h4{
+    text-align: center;
+}
+
+#hero-img_rivers{
+    width: 100%;
+}
+
+.rivers-title{
+    color: #ffffff;
+    font-family: 'Croissant One', 'Bradley Hand', sans-serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+.rivers-grid{
+    display: grid; 
+    grid-template-columns: repeat(9, 1fr); 
+    grid-template-rows: 0.5fr 0.5fr 4fr 0.5fr 0.5fr 4fr 0.5fr 0.5fr 4fr; 
+    gap: 20px 0px;
+}
+
+.idaho_title_section{
+    grid-column: 3/8;
+    grid-row: 2/3; 
+}
+
+.idaho_text_section{
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+.idaho_img_section{
+    grid-column: 6/10;
+    grid-row: 3/4;
+}
+
+.utah_title_section{
+    grid-column: 3/8;
+    grid-row: 5/6;
+}
+
+.utah_text_section{
+    grid-column: 6/10;
+    grid-row: 6/7;
+}
+
+.utah_img_section{
+    grid-column: 1/5;
+    grid-row: 6/7;
+}
+
+.arizona_title_section{
+    grid-column: 3/8;
+    grid-row: 8/9; 
+}
+
+.arizona_text_section{
+    grid-column: 1/5;
+    grid-row: 9/10;
+}
+
+.arizona_img_section{
+    grid-column: 6/10;
+    grid-row: 9/10;
+}
+
+.idaho_text_section p, .utah_text_section p, .arizona_text_section p{
+    text-align: justify;
+}
+
+.idaho-img, .utah-img, .arizona-img{
+    border: 5px solid #435465;
+    box-shadow: 5px 5px 10px #555555;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Media queries */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
