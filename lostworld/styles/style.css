@@ -347,9 +347,16 @@ footer p a:hover {
 
 /* Sheregesh Page*/
 
+.home-title-sh{
+    color: #ffffff;
+    font-family: 'Croissant One', 'Bradley Hand', sans-serif;
+    font-size: 2.5em;
+    margin-top: 60px;
+}
+
 .button-box-sh{
     text-align: center;
-    margin-top: 350px;
+    margin-top: 480px;
 }
 
 .sheregesh-grid{
@@ -359,13 +366,13 @@ footer p a:hover {
     margin: 200px 0;
 }
 #section-sheregesh-img1{
-    grid-column: 6/9;
+    grid-column: 1/4;
     grid-row: 1/5;
     box-shadow: 5px 5px 10px #294051;
     transition: transform .3s;
 }
 #section-sheregesh-img2{
-    grid-column: 1/4;
+    grid-column: 6/9;
     grid-row: 5/9;
     box-shadow: 5px 5px 10px #294051;
     transition: transform .3s;
@@ -378,12 +385,12 @@ footer p a:hover {
     border-radius: 10px;
 }
 #section-sheregesh-text1{
-    grid-column: 3/5;
+    grid-column: 5/7;
     grid-row: 3/4;
     text-align: justify;
 }
 #section-sheregesh-text2{
-    grid-column: 5/7;
+    grid-column: 3/5;
     grid-row: 6/7;
     text-align: justify;
 }
